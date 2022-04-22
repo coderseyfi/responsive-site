@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.head-fix {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navbar .nav-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .nav-ul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.navbar .nav-ul li:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+.fas {
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.fas:hover {
+    background-color: red;
+}
+
+.due-to-more {
+    display: none;
+}
+
+.img {
+    width: 100%;
+    padding-top: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.container-sec-first {
+    text-align: center;
+}
+
+.bottom-of-first-sec {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: white;
+    transform: translate(-50%, -6%);
+    z-index: -1;
+}
+
+.first-secof-h3 {
+    font-size: 25px;
+    margin: 19px 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.first-secof-p2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.container-light {
+    padding: 70px 365px;
+}
+
+.upper-part-of-sc-light {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.the-band {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+    letter-spacing: 5px;
+}
+
+.love-music {
+    margin-bottom: 16px;
+    color: rgb(175, 173, 173);
+    font-family: 'Lato', sans-serif;
+}
+
+.lorem-p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.three-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photographer {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.section-dark {
+    background-color: black;
+}
+
+.container-dark {
+    padding: 70px 0;
+}
+
+.upper-part-of-sc-dark {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.tour {
+    font-family: "Segoe UI", Arial, sans-serif;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 18px 0px;
+}
+
+.remember {
+    color: rgb(175, 173, 173);
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+}
+
+.month ul li {
+    border: 1px solid rgb(149, 149, 149);
+    color: black;
+    background-color: white;
+    width: 788px;
+    padding: 8px;
+    margin: -1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.circle-black {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 2px 7px;
+}
+
+.month ul li:last-child {
+    justify-content: space-between;
+    display: flex;
+}
+
+.bottom-part-of-sc-dark {
+    display: flex;
+    justify-content: center;
+}
+
+.cities {
+    width: 253px;
+    height: 183px;
+}
+
+.ny {
+    margin-left: 0px;
+}
+
+.cities:hover {
+    opacity: 0.80;
+}
+
+.city {
+    margin-left: 0px;
+}
+
+.bottom-part-of-sc-dark {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.city-one {
+    margin-right: 10px;
+}
+
+.city-sc {
+    margin-right: 10px;
+}
+
+.white-bottom-of-city {
+    background-color: white;
+    color: black;
+    width: 253px;
+}
+
+.card-head {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 15px 15px;
+}
+
+.date-of-ph {
+    font-family: 'Lato', sans-serif;
+    margin: 15px 15px;
+}
+
+.preasent {
+    font-family: 'Lato', sans-serif;
+    margin: 15px 15px;
+}
+
+.buy-ticket {
+    margin: 0px 0px 15px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 11px 17px;
+    background-color: black;
+    color: white;
+    border: 0px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buy-ticket:hover {
+    background-color: rgb(175, 173, 173);
+    color: rgb(0, 0, 0);
+}
+
+.section-light-second {
+    background-color: white;
+}
+
+.light-container {
+    padding: 70px 365px;
+}
+
+.contact-part {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.fan-drop {
+    color: rgb(150, 147, 147);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about-part {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-part ul li {
+    list-style: none;
+}
+
+.about-part {
+    margin-right: 104px;
+}
+
+.bottom-space {
+    margin-bottom: 10px;
+}
+
+.login-part {
+    margin-left: 100px;
+}
+
+.name-text {
+    font-family: 'Lato', sans-serif;
+    height: 40px;
+    width: 183px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.email {
+    height: 40px;
+    width: 183px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.message {
+    font-family: 'Lato', sans-serif;
+    width: 380px;
+    height: 40px;
+    padding: 1px;
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.send-button {
+    margin-left: 80%;
+    font-size: 16px;
+    padding: 10px 17px;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    border: 0px solid;
+    color: white;
+    font-weight: bold;
+}
+
+.send-button:hover {
+    background-color: rgb(175, 173, 173);
+    color: black;
+}
+
+.middle-part {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.fa-solid {
+    width: 20px;
+    height: 20px;
+}
+
+.map-img {
+    width: 100vw;
+    filter: grayscale(70%);
+    position: relative;
+    z-index: -1;
+}
+
+
+/* footer {
+    padding: 30px 220px 70px;
+} */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+    color: gray;
+}
+
+.fa-brands:hover {
+    color: rgb(192, 191, 191);
+}
+
+.powered {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 100px;
+    font-weight: bold;
+    color: gray;
+}
+
+@media only screen and (min-width:1200px) {}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {}
+
+@media only screen and (min-width:600px) and (max-width:900px) {}
+
+@media only screen and (max-width:600px) {}
+
+
+/*
+ col - 1200px
+col-lg - 900px-1200px
+col-md-600px-900px
+col-sm -0px - 600px
+*/
+
+
+/* .hd-add:hover .due-to-more {
+    display: block !important;
+} */
